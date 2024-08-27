@@ -1,3 +1,1 @@
-import { CovertUTC0000 } from "./src/utils/utils"
-
-export default CovertUTC0000()
+export * as Utils from './src/utils/utils'
