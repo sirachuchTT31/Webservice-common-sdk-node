@@ -1,4 +1,7 @@
-export function CovertUTC0000() {
-    console.log("CovertUTC0000")
-}
 
+
+export class Utils {
+    public CovertUTC0000() {
+        console.log("CovertUTC0000")
+    }
+}
