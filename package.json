@@ -1,14 +1,7 @@
 {
   "name": "common-sdk",
   "version": "1.0.0",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc"
-  },
-  "files": [
-    "/dist"
-  ],
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sirachuchTT31/Webservice-common-sdk-node.git"
@@ -17,10 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@types/express": "^4.17.21",
     "express": "^4.19.2",
-    "nodemon": "^3.1.4",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.5.4"
+    "nodemon": "^3.1.4"
   }
 }
