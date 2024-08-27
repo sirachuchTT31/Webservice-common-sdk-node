@@ -1,5 +1,5 @@
 {
-  "name": "webservice-auth-service-node",
+  "name": "common-sdk",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
