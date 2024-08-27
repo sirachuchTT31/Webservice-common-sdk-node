@@ -1,4 +1,22 @@
 {
+  "bit": {
+    "env": {
+      "compiler": {
+        "bit.envs/compilers/react-typescript@3.1.52": {
+          "rawConfig": {
+            "tsconfig": {
+              "compilerOptions": {
+                "target": "ES5",
+                "module": "CommonJS"
+              }
+            }
+          }
+        }
+      }
+    },
+    "componentsDefaultDirectory": "src/{name}",
+    "packageManager": "npm"
+  },
   "compilerOptions": {
     "module": "commonjs",
     "target": "es2019",
