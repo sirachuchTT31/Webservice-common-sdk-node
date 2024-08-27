@@ -1,8 +1,3 @@
-export { CovertUTC0000 } from "./src/utils/utils"
-// import { CovertUTC0000 } from ;
+import { CovertUTC0000 } from "./src/utils/utils"
 
-// declare namespace Utils {
-//     var Convert: typeof CovertUTC0000;
-// }
-
-// export = Utils;
+export default CovertUTC0000()
