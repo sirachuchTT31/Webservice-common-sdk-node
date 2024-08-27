@@ -1,29 +1,15 @@
 {
-  "bit": {
-    "env": {
-      "compiler": {
-        "bit.envs/compilers/react-typescript@3.1.52": {
-          "rawConfig": {
-            "tsconfig": {
-              "compilerOptions": {
-                "target": "ES5",
-                "module": "CommonJS"
-              }
-            }
-          }
-        }
-      }
-    },
-    "componentsDefaultDirectory": "src/{name}",
-    "packageManager": "npm"
-  },
-  "compilerOptions": {
+ "compilerOptions": {
+    "target": "ES6",
     "module": "commonjs",
-    "target": "es2019",
     "declaration": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true
   },
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src"],
+  "exclude": ["node_modules", "**/*.test.ts"]
 }
