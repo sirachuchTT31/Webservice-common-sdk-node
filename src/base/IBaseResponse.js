@@ -8,6 +8,18 @@ const IBaseResponse = ({ isSuccess = false, statusCode = 200, message, result = 
     }
 }
 
+const IBaseResponsePagination = ({ isSuccess = false, statusCode = 200, message, result = null, error = null , totalRecord = 0  }) => {
+    return {
+        isSuccess,
+        statusCode,
+        message,
+        result,
+        totalRecord,
+        error
+    }
+}
+
 module.exports = {
-    IBaseResponse
+    IBaseResponse,
+    IBaseResponsePagination
 }
